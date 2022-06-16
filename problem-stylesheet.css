@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@600;700&display=swap');
+
+/*PROBLEM START*/
+
+/*layout*/
+
+.problem-container {
+    width: 100%;
+    background-color: #F5F5F5;
+    padding-top: 100px;
+}
+
+.problem-container-margins {
+    
+    width: 84vw;
+    margin: 0 auto;
+
+}
+
+.problem-columns {
+    display: flex;
+    justify-content:  space-between;
+}
+
+.problem-col1{
+    width: 45%;
+}
+
+.problem-col2{
+    width: 45%;
+}
+
+.problem-row {
+    display: flex;
+    align-items: center;
+}
+
+.problem-spacer {
+    width: 90%;
+}
+
+/*styling*/
+
+.problem-top-row{
+    padding-top: 16px;
+}
+
+.problem-icon {
+    opacity: 0.5;
+    margin: 15px;
+  }
+
+
+.iframe-container {
+    margin-top: 100px;
+    text-align:center;
+    filter: drop-shadow(0px 14px 20px #9F9F9F);
+}
+
+  /*typography*/
+
+.problem-h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #48A259;
+}
+
+.problem-body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.problem-accent {
+    color: #48A259;
+}
+
+
+/*PROBLEM END*/
