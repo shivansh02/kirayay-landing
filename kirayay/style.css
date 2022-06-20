@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;300&family=Open+Sans:wght@600;700&display=swap");
 
+
 body {
+
   margin: 0px;
   padding: 0px;
   font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+
 }
 
 #header {
@@ -389,4 +393,173 @@ li:before {
     height: 25px;
     top: 25%;
   }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+footer{
+    min-height: 20vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+
+p{
+    font-size: 1rem;
+}
+
+div{
+    margin: 0, 5px;
+}
+
+footer button{
+    border: none;
+    border-radius: 30px;
+    background-color: #48A259;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 15px;   
+}
+
+footer .main{
+    display: flex;
+    margin: 2rem 8vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .main .subscriber{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: */
+    
+}
+
+footer .main .subscriber input{
+    border-radius: 6px;
+    padding: 10px 15px;
+}
+
+footer .main .subscriber h2{
+    margin: 1rem 0 1rem 0;
+ 
+}
+
+
+footer .contacts{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-basis: 20rem;
+}
+
+footer .main .contacts .social span{
+    font-size: 2rem;
+}
+
+
+footer .fa-brands i{
+    color: grey;
+    
+ 
+}
+
+footer .divider{
+    height: 1px;
+    background-color: #48A259;
+    margin: 0 9vw;
+}
+
+
+
+
+footer .rights{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.copyright {
+    font-size: 10px;
+    color: grey;
+}
+
+.footer-heading {
+    font-size: 16px;
+    padding: 0 10px 10px 10px;
+}
+
+.footer-logo {
+    width: 200px;
+}
+
+.footer-input {
+        border: none;
+        outline:none;
+    }
+
+    .footer-input:active{
+        border: none;
+        outline:none;
+    }
+
+
+.spacer {
+  height: 100px;
+}
+
+.bottomouter {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.bottomtext {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+
+ 
+}
+
+.bottombox {
+  background-color: #48A259;
+  width: 120px;
+  display: inline-block;
+  padding: 10px 10px;
+  color: white;
+  font-size: x-large;
+  border-radius: 10px;
+  letter-spacing: 4px;
+  margin-top: 2px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  
+}
+
+.bottomouter video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0% 70%;
+  z-index: -100;
+  border: 0;
 }
